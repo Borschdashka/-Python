@@ -1,3 +1,4 @@
+
 def summary():
     try:
         with open('file_5.txt', 'w+') as file_obj:
@@ -10,4 +11,3 @@ def summary():
         print('Ошибка в файле')
     except ValueError:
         print('Неправильно набран номер. Ошибка ввода-вывода')
-summary()
